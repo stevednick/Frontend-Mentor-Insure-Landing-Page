@@ -1,0 +1,50 @@
+// Primary
+
+$dark-violet: hsl(256, 26%, 20%);
+$grayish-blue: hsl(216, 30%, 68%);
+
+// Neutral
+
+$very-dark-violet: hsl(270, 9%, 17%);
+$dark-grayish-violet: hsl(273, 4%, 51%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+html{
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Karla', sans-serif;
+}
+
+.link-box-holder{
+  display: grid;
+  //grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.link-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-heading, .bottom-link{
+  text-transform: uppercase;
+}
+
+.link-heading{
+  color: $dark-grayish-violet;
+}
+
+.bottom-link{
+  color: $dark-violet;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.attribution
+  {
+    font-size: 11px;
+    text-align: center;
+  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
