@@ -9,12 +9,16 @@ $very-dark-violet: hsl(270, 9%, 17%);
 $dark-grayish-violet: hsl(273, 4%, 51%);
 $very-light-gray: hsl(0, 0%, 98%);
 
-html{
-  font-family: 'DM Serif Display', serif;
-  font-family: 'Karla', sans-serif;
+html {
+  font-family: "DM Serif Display", serif;
+  font-family: "Karla", sans-serif;
 }
 
-.work-box{
+.header-link {
+  display: none;
+}
+
+.work-box {
   background-image: url("../images/bg-pattern-how-we-work-mobile.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -25,9 +29,9 @@ html{
   text-align: center;
 }
 
-.work-text{
+.work-text {
   color: white;
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
   font-size: 3rem;
   font-weight: 400;
   margin: 3rem 2rem;
@@ -35,7 +39,7 @@ html{
   //text-align: center;
 }
 
-.work-link{
+.work-link {
   color: white;
   text-decoration: none;
   padding: 0.5rem 2rem;
@@ -47,7 +51,7 @@ html{
   margin-bottom: 3rem;
 }
 
-.footer-title-box{
+.footer-title-box {
   max-width: 100%;
   position: relative;
   background-image: url("../images/bg-pattern-footer-mobile.svg");
@@ -57,18 +61,18 @@ html{
   flex-direction: column;
   align-items: center;
 }
-.footer-logo{
+.footer-logo {
   margin-top: 4rem;
 }
 
-.social-media-box{
+.social-media-box {
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   width: 8rem;
 }
 
-.footer-divider{
+.footer-divider {
   display: block;
   max-width: 100%;
   margin: 4rem 1rem;
@@ -76,57 +80,57 @@ html{
   background-color: $grayish-blue;
 }
 
-.link-box-holder{
+.link-box-holder {
   display: grid;
   justify-content: center;
 }
 
-.link-box{
+.link-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.link-heading, .bottom-link{
-  font-family: 'Karla', sans-serif;
+.link-heading,
+.bottom-link {
+  font-family: "Karla", sans-serif;
   text-transform: uppercase;
   font-size: 0.9rem;
   font-weight: 700;
 }
 
-.link-heading{
+.link-heading {
   color: $dark-grayish-violet;
   margin-bottom: 2.5rem;
 }
 
-.bottom-link{
+.bottom-link {
   color: $dark-violet;
   text-decoration: none;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.attribution
-  {
-    font-size: 11px;
-    text-align: center;
-  }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 600px){
-  .work-box{
+@media screen and (min-width: 600px) {
+  .work-box {
     flex-direction: row;
   }
-  .footer-title-box{
+  .footer-title-box {
     flex-direction: row;
   }
-  .link-box-holder{
+  .link-box-holder {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .link-box{
+  .link-box {
     align-items: flex-start;
   }
 }

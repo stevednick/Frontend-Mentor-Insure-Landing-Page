@@ -3,6 +3,10 @@ html {
   font-family: "Karla", sans-serif;
 }
 
+.header-link {
+  display: none;
+}
+
 .work-box {
   background-image: url("../images/bg-pattern-how-we-work-mobile.svg");
   background-repeat: no-repeat;
@@ -76,7 +80,8 @@ html {
   margin-bottom: 1rem;
 }
 
-.link-heading, .bottom-link {
+.link-heading,
+.bottom-link {
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
   font-size: 0.9rem;
